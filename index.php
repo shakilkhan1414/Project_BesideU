@@ -103,13 +103,13 @@
             <form method="POST">            
                     <h1>Ask Your Queries</h1>
                     <div>
-                        <input type="text" name="name" id="" placeholder="Name*" required>                
+                        <input type="text" name="name" id="" placeholder="Name*" autocomplete="off" required>                
                     </div>
                     <div>
-                        <input type="email" name="email" id="" placeholder="Email*" required>     
+                        <input type="email" name="email" id="" placeholder="Email*" autocomplete="off" required>     
                     </div>
                     <div>
-                        <textarea name="message" placeholder="Message"></textarea>                      
+                        <textarea name="message" placeholder="Message" autocomplete="off"></textarea>                      
                     </div>
                     <div>
                         <input type="submit" value="Send">

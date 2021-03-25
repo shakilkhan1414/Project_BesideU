@@ -30,27 +30,27 @@
         <div class="user-details">
           <div class="input-box">
             <span class="details">Full Name</span>
-            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="text" name="name" placeholder="Enter your name" autocomplete="off" required>
           </div>
           <div class="input-box">
             <span class="details">Username</span>
-            <input type="text" placeholder="Enter your username" name="username" required>
+            <input type="text" placeholder="Enter your username" name="username" autocomplete="off" required>
           </div>
           <div class="input-box">
             <span class="details">Email</span>
-            <input type="email" placeholder="Enter your email" name="email" required>
+            <input type="email" placeholder="Enter your email" name="email" autocomplete="off" required>
           </div>
           <div class="input-box">
             <span class="details">Occupation</span>
-            <input type="text" placeholder="Enter your occupation" name="job" required>
+            <input type="text" placeholder="Enter your occupation" name="job" autocomplete="off" required>
           </div>
           <div class="input-box">
             <span class="details">Password</span>
-            <input type="text" placeholder="Enter your password" name="password" required>
+            <input type="text" placeholder="Enter your password" name="password" autocomplete="off" required>
           </div>
           <div class="input-box">
             <span class="details">Interest</span>
-            <input type="text" placeholder="Enter your interest" name="interest" required>
+            <input type="text" placeholder="Enter your interest" name="interest" autocomplete="off" required>
           </div>
         </div>
         <div class="gender-details">

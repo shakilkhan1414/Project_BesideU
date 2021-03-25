@@ -6,7 +6,7 @@
                     <ul>
                         <li class="search">
                             <form action="search.php" method="get">
-                                <input type="text" name="search" placeholder="Search job or interest" required>
+                                <input type="text" name="search" placeholder="Search job or interest" autocomplete="off" required>
                                 <button type="submit"><i class="fas fa-search"></i></button>
                             </form>                        
                         </li>
