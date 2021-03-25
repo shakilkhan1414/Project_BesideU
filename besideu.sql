@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 25, 2021 at 11:37 AM
+-- Generation Time: Mar 25, 2021 at 03:46 PM
 -- Server version: 10.4.10-MariaDB
 -- PHP Version: 7.3.12
 
@@ -58,7 +58,7 @@ CREATE TABLE `inbox` (
   `sender_id` varchar(20) NOT NULL,
   `received_id` varchar(20) NOT NULL,
   `message` varchar(100) NOT NULL,
-  `time` varchar(20) NOT NULL
+  `time` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -66,12 +66,12 @@ CREATE TABLE `inbox` (
 --
 
 INSERT INTO `inbox` (`id`, `sender_id`, `received_id`, `message`, `time`) VALUES
-(9, '6062', '5766', 'hey bro', 'Mar,25,2021 11:23:25'),
-(10, '5766', '6062', 'hii', 'Mar,25,2021 11:23:52'),
-(11, '6062', '2604', 'whatsup?', 'Mar,25,2021 11:24:37'),
-(13, '6', '6062', 'lets play', 'Mar,25,2021 11:25:43'),
-(14, '6062', '6', 'ok', 'Mar,25,2021 11:26:14'),
-(15, '541885065', '6', 'like cricket?', 'Mar,25,2021 11:29:51');
+(9, '6062', '5766', 'hey bro', '25-03-2021 11:23:25 pm'),
+(10, '5766', '6062', 'hii', '25-03-2021 11:23:52 pm'),
+(11, '6062', '2604', 'whatsup?', '25-03-2021 11:24:37 pm'),
+(13, '6', '6062', 'lets play', '25-03-2021 11:25:43 pm'),
+(14, '6062', '6', 'ok', '25-03-2021 11:26:14 pm'),
+(15, '541885065', '6', 'like cricket?', '25-03-2021 11:29:51 pm');
 
 -- --------------------------------------------------------
 
@@ -115,7 +115,7 @@ CREATE TABLE `world_chat` (
   `id` int(10) NOT NULL,
   `sender_id` int(20) NOT NULL,
   `send_message` varchar(500) NOT NULL,
-  `send_time` varchar(20) NOT NULL
+  `send_time` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -123,13 +123,12 @@ CREATE TABLE `world_chat` (
 --
 
 INSERT INTO `world_chat` (`id`, `sender_id`, `send_message`, `send_time`) VALUES
-(26, 2604, 'Hello Guys', 'Mar,19,2021 10:47:17'),
-(27, 5766, 'Lets play a game', 'Mar,19,2021 10:47:57'),
-(28, 6, 'apex?', 'Mar,19,2021 10:48:38'),
-(29, 9570, 'Assemble!!', 'Mar,19,2021 10:49:39'),
-(30, 6062, 'Nope', 'Mar,19,2021 10:50:22'),
-(31, 5766, 'Winter is coming', 'Mar,19,2021 10:52:28'),
-(45, 6062, 'I want a graphics designer, anyone?', 'Mar,25,2021 11:35:38');
+(26, 2604, 'Hello Guys', '25-03-2021 10:47:17 pm'),
+(27, 5766, 'Lets play a game', '25-03-2021 10:47:57 pm'),
+(28, 6, 'apex?', '25-03-2021 10:48:38 pm'),
+(29, 9570, 'Assemble!!', '25-03-2021 10:49:39 pm'),
+(31, 5766, 'Winter is coming', '25-03-2021 10:52:28 pm'),
+(45, 6062, 'I want a graphics designer, anyone?', '25-03-2021 11:35:38 pm');
 
 --
 -- Indexes for dumped tables
@@ -167,13 +166,13 @@ ALTER TABLE `world_chat`
 -- AUTO_INCREMENT for table `inbox`
 --
 ALTER TABLE `inbox`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `world_chat`
 --
 ALTER TABLE `world_chat`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

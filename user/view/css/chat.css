@@ -95,10 +95,17 @@ body{
   color: #333;
   border-radius: 18px 18px 18px 0;
   width: 880px;
+  position: relative;
 }
 .incoming .details p a{
   color: blue;
   text-decoration: none;
+}
+.incoming .details p span {
+  position: absolute;
+  right: 40px;
+  bottom: -18px;
+  font-size: 12px;
 }
 .typing-area{
   padding: 18px 30px;

@@ -7,7 +7,7 @@
         $sender_id = $_SESSION['id'];
         $received_id = mysqli_real_escape_string($con, $_POST['msg_id']);
         $send_message = mysqli_real_escape_string($con, $_POST['message']);
-        $send_time=date("M,d,Y h:i:s A");
+        $send_time=date("d-m-Y h:i:s a");
         if(!empty($send_message)){
             $sql = mysqli_query($con, "INSERT INTO inbox VALUES ('','$sender_id', '$received_id', '$send_message', '$send_time')") or die();
 
