@@ -38,7 +38,7 @@
                                     }
                                 }
                                 
-                                $content="<p>Name: ".$name."<br>Occupation: ".$job."<br>Interest: ".$interest."</p><br><a href='viewProfile.php?id=$_SESSION[id]' class=''>View Profile</a>";
+                                $content="<p>Name: ".$name."<br>Work: ".$job."<br>Interest: ".$interest."</p><br><a href='viewProfile.php?id=$_SESSION[id]'>View Profile</a> &nbsp; &nbsp; <a href='inbox.php?id=$_SESSION[id]'>chat</a>";
 
                                 for($i=0; $i < sizeof($location_array_data); $i++){
                                     

@@ -35,7 +35,7 @@
                 
 
     <link rel="stylesheet" href="css/inbox.css">
-    <title>BesideU-Inbox</title>
+    <title>BesideU-Chat</title>
     <link rel="shortcut icon" href="../../img/favicon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Document</title>

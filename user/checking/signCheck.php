@@ -58,7 +58,7 @@
                                     }
                                 }
                                 
-                                $content="<p>Name: ".$name."<br>Occupation: ".$job."<br>Interest: ".$interest."</p><br><a href='viewProfile.php?id=$id'>View Profile</a> &nbsp; &nbsp; <a href='viewProfile.php?id=$id'>chat</a>";
+                                $content="<p>Name: ".$name."<br>Work: ".$job."<br>Interest: ".$interest."</p><br><a href='viewProfile.php?id=$id'>View Profile</a> &nbsp; &nbsp; <a href='inbox.php?id=$id'>chat</a>";
 
                                 $locations = [	
                                         'id'=>$id,

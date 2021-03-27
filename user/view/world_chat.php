@@ -15,7 +15,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
                 
     <link rel="stylesheet" href="css/chat.css">
-    <title>BesideU-Post</title>
+    <title>BesideU-Notice Board</title>
     <link rel="shortcut icon" href="../../img/favicon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
@@ -76,7 +76,7 @@ header .menu ul li.name{
       </div>
       <form action="#" class="typing-area">
         <input type="text" class="incoming_id" name="incoming_id" value="" hidden>
-        <input type="text" name="message" class="input-field" placeholder="Type a post here..." autocomplete="off">
+        <input type="text" name="message" class="input-field" placeholder="Type a notice here..." autocomplete="off">
         <button><i class="fab fa-telegram-plane"></i></button>
       </form>
     </section>

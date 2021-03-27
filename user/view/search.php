@@ -66,7 +66,7 @@
                                     <th>Name</th>
                                     <th>Email</th>
                                     <th>Gender</th>
-                                    <th>Occupation</th>
+                                    <th>Work</th>
                                     <th>Interest</th>
                                     <th>District</th>
                                     <th>Date of Birth</th>
